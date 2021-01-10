@@ -8,8 +8,7 @@ def factorial(n):
         return 1
     elif n == 1:
         return 1
-    else:
-        #  n = n*n-1*n-2     
+    else:    
         return n * factorial(n - 1)
     
 

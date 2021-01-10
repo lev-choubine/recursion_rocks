@@ -13,7 +13,7 @@ from functools import lru_cache
 
 def fib(n):
     if type(n) != int:
-        raise TypeError('Value must be a positive number')
+        raise TypeError('Value must be an integer')
     if n < 1:
         return 0;
 
